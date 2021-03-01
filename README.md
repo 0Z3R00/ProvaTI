@@ -13,3 +13,14 @@ iniciar
 
 Rodar projeto
 > yarns start
+
+
+Back-end-ejs
+
+Api mais a implementação do EJS.
+
+iniciar 
+> yarn install
+
+Rodar projeto
+> yarns start
