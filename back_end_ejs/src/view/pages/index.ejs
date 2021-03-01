@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+      <title>Prova TI - EJS</title>
+</head>
+
+<body class="container">
+
+      <form class="container-fluid p-5" action="/api/cadastro" method="GET">
+           <section class="row p-5">
+            <div class="col-4 mb-3">
+                  <label for="nome" class="form-label">Nome</label>
+                  <input class="form-control" type="text" name="nome" id="nome" aria-describedby="nameHelp">
+                  <div id="nameHelp" class="form-text">Escreva o primeiro nome</div>
+            </div>
+            <div class="col-4 mb-3">
+                  <label for="sobrenome" class="form-label">sobreNome</label>
+                  <input class="form-control" type="text" name="sobrenome" id="sobrenome" aria-describedby="nameHelp">
+                  <div id="nameHelp" class="form-text">Escreva o seu sobrenome</div>
+            </div>
+            <div class="col-4 mb-3">
+                  <label for="email" class="form-label">email</label>
+                  <input class="form-control" type="text" name="email" id="email" aria-describedby="nameHelp">
+                  <div id="nameHelp" class="form-text">Escreva o seu email</div>
+            </div>
+           </section>
+
+           <section class="row p-5">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+           </section>
+      </form>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
